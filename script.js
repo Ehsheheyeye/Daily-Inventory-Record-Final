@@ -29,7 +29,7 @@ function viewAllRecords() {
 }
 
 // Script to handle form submission and clear fields afterward
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxwjc7qWwm02aFgG6y_2FF4sw-6-Yv9ZRJq9P7doc17H4QIKyy6sbaqJKMw4qxqpdOkeA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxA0CBKtwciaYEohXbD3wF9i7hwON0Umk1kdXXX-1IVZYFK1Izqr9_L3BKpunhFL3QJ/exec';
 const form = document.forms['google-sheet'];
 
 form.addEventListener('submit', e => {
